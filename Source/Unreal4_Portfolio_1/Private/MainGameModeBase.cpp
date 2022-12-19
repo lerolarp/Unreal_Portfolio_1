@@ -2,11 +2,11 @@
 
 
 #include "MainGameModeBase.h"
-#include "MyNinjaCharacter.h"
+#include "MyCharacter.h"
 
 AMainGameModeBase::AMainGameModeBase()
 {
-	DefaultPawnClass = AMyNinjaCharacter::StaticClass();
+	DefaultPawnClass = AMyCharacter::StaticClass();
 
 
 	//static ConstructorHelpers::FClassFinder<ACharacter> 
